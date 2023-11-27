@@ -5,7 +5,7 @@ public class day1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		person kunal = new person();
+		stood kunal = new stood();
 		System.out.println(kunal.firstname);
 		System.out.println(kunal.lastname);
 		System.out.println(kunal.age);
@@ -27,7 +27,10 @@ public class day1 {
 	}
 
 }
-class person{
+
+
+
+class stood{
 	String firstname = "kunal";
 	String lastname = "kanoje";
 	int age = 24;
